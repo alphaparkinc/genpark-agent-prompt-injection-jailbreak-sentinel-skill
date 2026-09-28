@@ -1,0 +1,25 @@
+{
+  "name": "genpark-agent-prompt-injection-jailbreak-sentinel-skill",
+  "version": "1.0.0",
+  "description": "Multi-vector heuristic prompt injection and jailbreak detector analyzing system overrides, delimiter breakouts, and base64 payload evasion.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "prompt-injection",
+    "jailbreak-defense",
+    "adversarial-robustness",
+    "llm-security",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "scan_prompt",
+      "description": "Scan user input for prompt injection and jailbreak attacks."
+    },
+    {
+      "name": "run_benchmark_jailbreak_sentinel",
+      "description": "Run prompt injection defense benchmark."
+    }
+  ]
+}
