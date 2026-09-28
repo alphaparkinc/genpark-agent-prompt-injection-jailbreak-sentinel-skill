@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-agent-prompt-injection-jailbreak-sentinel-skill"
+version = "1.0.0"
+description = "Multi-vector heuristic prompt injection and jailbreak detector analyzing system overrides, delimiter breakouts, and base64 payload evasion."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "safety", "guardrails", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-agent-prompt-injection-jailbreak-sentinel-skill"
